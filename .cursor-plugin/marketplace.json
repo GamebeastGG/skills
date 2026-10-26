@@ -1,0 +1,13 @@
+{
+  "name": "gamebeast",
+  "owner": {
+    "name": "Gamebeast"
+  },
+  "plugins": [
+    {
+      "name": "gamebeast",
+      "source": "./",
+      "description": "Analyze players, run A/B experiments, and tune live games with Gamebeast skills and the Gamebeast MCP server."
+    }
+  ]
+}

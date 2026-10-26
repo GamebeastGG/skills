@@ -1,0 +1,20 @@
+{
+  "name": "gamebeast",
+  "interface": {
+    "displayName": "Gamebeast"
+  },
+  "plugins": [
+    {
+      "name": "gamebeast",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GamebeastGG/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

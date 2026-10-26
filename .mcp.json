@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gamebeast": {
+      "type": "http",
+      "url": "https://api.gamebeast.gg/mcp"
+    }
+  }
+}

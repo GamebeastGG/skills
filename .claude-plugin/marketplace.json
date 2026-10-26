@@ -1,0 +1,29 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "gamebeast",
+  "description": "Official Gamebeast skills and MCP server for analyzing, experimenting on, and operating live games.",
+  "metadata": {
+    "description": "Official Gamebeast skills and MCP server for analyzing, experimenting on, and operating live games."
+  },
+  "owner": {
+    "name": "Gamebeast",
+    "email": "support@gamebeast.gg",
+    "url": "https://gamebeast.gg"
+  },
+  "plugins": [
+    {
+      "name": "gamebeast",
+      "source": "./",
+      "description": "Analyze players, run A/B experiments, and tune live games with Gamebeast skills and the Gamebeast MCP server.",
+      "author": {
+        "name": "Gamebeast",
+        "email": "support@gamebeast.gg",
+        "url": "https://gamebeast.gg"
+      },
+      "homepage": "https://docs.gamebeast.gg/docs/mcp",
+      "repository": "https://github.com/GamebeastGG/skills",
+      "license": "Apache-2.0",
+      "keywords": ["gamebeast", "analytics", "experiments", "remote-config", "liveops", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "gamebeast",
+  "version": "1.0.0",
+  "description": "Analyze players, run A/B experiments, and tune live games with Gamebeast skills and the Gamebeast MCP server.",
+  "author": {
+    "name": "Gamebeast",
+    "email": "support@gamebeast.gg",
+    "url": "https://gamebeast.gg"
+  },
+  "homepage": "https://docs.gamebeast.gg/docs/mcp",
+  "repository": "https://github.com/GamebeastGG/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "gamebeast",
+    "analytics",
+    "game-analytics",
+    "experiments",
+    "ab-testing",
+    "remote-config",
+    "liveops",
+    "roblox",
+    "unity",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Gamebeast",
+    "shortDescription": "Game analytics, experiments, and LiveOps",
+    "longDescription": "Understand and operate your live game with Gamebeast: query insights, funnels, retention, and heatmaps; build dashboards and player cohorts; design, ramp, and read out A/B experiments; tune remote configurations and in-game economies; plan LiveOps events; read community sentiment; and instrument your Roblox, Unity, Unreal, Godot, or web game end to end through the Gamebeast MCP server.",
+    "developerName": "Gamebeast",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://gamebeast.gg",
+    "privacyPolicyURL": "https://www.gamebeast.gg/privacy",
+    "termsOfServiceURL": "https://www.gamebeast.gg/terms-of-service",
+    "defaultPrompt": [
+      "Give me a weekly review of how my game is doing",
+      "Why did day-1 retention drop last week?",
+      "Instrument this game with Gamebeast events and a remote configuration"
+    ],
+    "brandColor": "#D4145A",
+    "composerIcon": "./logo.svg",
+    "logo": "./logo.svg",
+    "screenshots": []
+  }
+}

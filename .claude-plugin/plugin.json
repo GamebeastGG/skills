@@ -1,0 +1,26 @@
+{
+  "name": "gamebeast",
+  "description": "Analyze players, run A/B experiments, and tune live games with Gamebeast skills and the Gamebeast MCP server.",
+  "version": "1.0.0",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Gamebeast",
+    "email": "support@gamebeast.gg",
+    "url": "https://gamebeast.gg"
+  },
+  "homepage": "https://docs.gamebeast.gg/docs/mcp",
+  "repository": "https://github.com/GamebeastGG/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "gamebeast",
+    "analytics",
+    "game-analytics",
+    "experiments",
+    "ab-testing",
+    "remote-config",
+    "liveops",
+    "roblox",
+    "unity",
+    "mcp"
+  ]
+}
